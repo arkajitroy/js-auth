@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap");
+
+* {
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 70%;
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Exit Pannel */
+.panel {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  width: 20%;
+}
+
+.btn {
+  margin: 1rem;
+  cursor: pointer;
+}
+
+#register {
+  border: 0;
+  height: 2.5rem;
+  width: 8rem;
+  background-color: rgb(59, 93, 204);
+  color: white;
+}
+
+#home {
+  border: 0;
+  height: 2.5rem;
+  width: 8rem;
+  background-color: rgb(41, 58, 78);
+  color: white;
+}
+
+/* FORM Container */
+
+.all-containers {
+  padding-top: 5rem;
+}
+
+.form-container {
+  background-color: rgb(230, 119, 119);
+  color: white;
+  height: 25rem;
+  width: 35rem;
+  border-radius: 1rem;
+}
+
+.input-container {
+  font-size: 1.2rem;
+  display: grid;
+  grid-template-columns: 9rem auto;
+  justify-content: space-evenly;
+  padding: 0.7rem;
+}
+
+.input-container input {
+  width: 17rem;
+  height: 2.5rem;
+  border: 0;
+}
+
+.submit-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  border: 0;
+  height: 2.5rem;
+  width: 8rem;
+  background-color: rgb(216, 11, 11);
+  color: white;
+  transition: 0.5s;
+}
+
+.submit-btn:hover {
+  background-color: rgb(139, 0, 0);
+}
